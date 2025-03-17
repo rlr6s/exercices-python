@@ -3,3 +3,10 @@ histograma en la pantalla. Ejemplo: procedimiento([4, 9, 7]) debería imprimir l
 ****
 *********
 ******* '''
+
+def historiograma(lista):
+  for numeros in lista:
+    print("*" * numeros
+
+historiograma  = ([4,9,7])
+  
