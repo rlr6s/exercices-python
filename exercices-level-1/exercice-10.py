@@ -3,3 +3,20 @@ histograma en la pantalla. Ejemplo: procedimiento([4, 9, 7]) debería imprimir l
 ****
 *********
 ******* '''
+
+def main():
+    
+    entrada = input("ingrese 3 numeros: ")
+    
+    entrada = entrada.replace(" ", "")
+    
+    lista = list(map(int, entrada.split(",")))
+    
+    histograma(lista)
+    
+def histograma(lista):
+    
+    for numero in lista:
+      print("*" * numero)
+    
+main()

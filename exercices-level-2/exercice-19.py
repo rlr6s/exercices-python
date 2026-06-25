@@ -4,3 +4,16 @@ se te añaden al balance final de tu cuenta de ahorros. Escribir un programa que
  de dinero depositada en la cuenta de ahorros, introducida por el usuario. Después el programa debe calcular y
   mostrar por pantalla la cantidad de ahorros tras el primer, segundo y tercer años.
  Redondear cada cantidad a dos decimales.'''
+ 
+def main():
+    saldo = float(input("ingrese el monto a depositar: "))
+    
+    interes = 0.04
+    
+    for año in range (1,4):
+        saldo *= (1 + interes)
+        print(f"ahorros tras el año {año}: {saldo:.2f}")
+        
+main()
+    
+    
