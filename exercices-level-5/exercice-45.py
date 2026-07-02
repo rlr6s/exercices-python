@@ -7,3 +7,9 @@ como el de más abajo, de altura el número introducido.
 ****
 ***** '''
 
+num = int(input("ingrese un numeron entero: "))
+
+for i in range(num): 
+    print("*" * i)
+    
+    
